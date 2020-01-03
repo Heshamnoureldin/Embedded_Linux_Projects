@@ -2,6 +2,7 @@
 This project simulate 2 ECUs:
 
 ECU-1 
+
 •It is used to receive packets from user.
 •Add the received time to the packet.
 •Send the packet to ECU-2 via Ethernet Socket communication (server). 
@@ -13,6 +14,7 @@ ECU-1
   - IT sends termination message to the client side.
 
 ECU-2 
+
 •It is used to receive packets from ECU-1 via Ethernet Socket communication (client). 
 •Add the received time to the packet.
 •Dump the received packet into file in ECU-2’s system files.
